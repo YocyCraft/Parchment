@@ -1,6 +1,6 @@
 CLASS net/minecraft/world/entity/ai/navigation/PathNavigation
 	FIELD hasDelayedRecomputation Z
-		COMMENT Whether the path can be changed by {@link net.minecraft.pathfinding.PathNavigate#onUpdateNavigation() onUpdateNavigation()}
+		COMMENT Whether the path can be changed by {@link net.minecraft.pathfinding.PathNavigate#recomputePath() recomputePath()}
 	FIELD reachRange I
 		COMMENT Distance in which a path point counts as target-reaching
 	METHOD <init> (Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/Level;)V
